@@ -1,0 +1,34 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: FutureYL030928
+
+  redis:
+    host: localhost
+    port: 6379
+    password: FutureYL030928
+
+
+  alioss:
+    endpoint: https://oss-cn-hangzhou.aliyuncs.com
+    access-key-id: LTAI5tCo3yMZzBFC5CdCgWPK
+    access-key-secret: Jle8dec8QoZ3wkHxZSj7kADH9ktVMg
+    bucket-name: sky-takeout-yl
+
+  wechat:
+    appid: wxed80237664c4f669
+    secret: 4def09af9dcac742336b8f9e4b01d4cc
+    mchid: test
+    mchSerialNo: test
+    privateKeyFilePath: test
+    apiV3Key: test
+    weChatPayCertFilePath: test
+    notifyUrl: test
+    refundNotifyUrl: test
+
+  shop:
+    address: xxx
