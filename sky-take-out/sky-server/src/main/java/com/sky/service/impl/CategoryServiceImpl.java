@@ -35,6 +35,8 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryMapper, Category> i
     private DishMapper dishMapper;
     @Autowired
     private SetmealMapper setmealMapper;
+    // 修改的部分
+    private int a = 0;
 
     /**
      * 新增分类
