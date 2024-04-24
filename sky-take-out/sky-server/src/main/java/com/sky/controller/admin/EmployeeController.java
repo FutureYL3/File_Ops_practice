@@ -35,6 +35,8 @@ public class EmployeeController {
     private EmployeeService employeeService;
     @Autowired
     private JwtProperties jwtProperties;
+    // 修改的内容
+    private Boolean isLogged = false;
 
     /**
      * 登录
